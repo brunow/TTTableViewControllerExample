@@ -54,7 +54,7 @@
 }
 
 - (id<TTModel>)model {
-	return [_twitterSearchModel autorelease];
+	return _twitterSearchModel;
 }
 
 - (Class)tableView:(UITableView *)tableView cellClassForObject:(id)object {

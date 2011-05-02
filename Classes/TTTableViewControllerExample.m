@@ -36,7 +36,7 @@
 }
 
 - (void)createModel {
-	self.dataSource = [[TwitterSearchDataSource alloc] init];
+	self.dataSource = [[[TwitterSearchDataSource alloc] init] autorelease];
 }
 
 - (id<UITableViewDelegate>)createDelegate {
